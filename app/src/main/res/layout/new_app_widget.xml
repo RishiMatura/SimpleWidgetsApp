@@ -15,9 +15,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@color/design_default_color_surface"
         android:contentDescription="@string/appwidget_text"
-        android:text="3"
+        android:text="@string/Count_0"
         android:textSize="24sp"
         android:textStyle="bold|italic" />
 
@@ -26,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/appwidget_text"
-        android:layout_centerInParent="true"
         android:layout_marginTop="20sp"
-        android:text="ADD"
+        android:layout_centerHorizontal="true"
+        android:text="Press Me"
         tools:ignore="HardcodedText" />
 </RelativeLayout>
